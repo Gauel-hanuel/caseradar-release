@@ -42,7 +42,3 @@
 - 저장 도중 꺼져도 파일이 깨지지 않도록 저장하고, 경로 조작과 엑셀 수식 주입을 막습니다.
 
 **기술**: Python, Tkinter, Playwright, ddddocr(OCR), openpyxl, PyInstaller, GitHub Releases, pytest
-
-## 만든 사람
-
-김인후 · [GitHub](https://github.com/Gauel-hanuel) — 기획·설계·개발·시험·배포를 맡은 1인 프로젝트입니다.
