@@ -36,9 +36,7 @@
 
 **데이터 저장 위치**: 조회 기록과 설정은 이 PC의 `%LOCALAPPDATA%\scourt_monitor`에만 저장되며, exe를 옮기거나 새 버전으로 바꿔도 그대로 남습니다.
 
-## 만든 방식
 
 - 브라우저를 켜 둔 채 재사용하고 쉬는 동안 다음 조회를 준비해, 1건 조회 시간을 약 8초에서 1~3초로 줄였습니다.
 - 저장 도중 꺼져도 파일이 깨지지 않도록 저장하고, 경로 조작과 엑셀 수식 주입을 막습니다.
 
-**기술**: Python, Tkinter, Playwright, ddddocr(OCR), openpyxl, PyInstaller, GitHub Releases, pytest
